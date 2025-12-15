@@ -66,6 +66,7 @@ calculator.addEventListener('click', (event) => {
         answer = calc(num1, num2, operator)
         console.log(answer)
         display.textContent = answer
+        num1=answer
   }
    if (event.target.innerText === 'C') {
        operatorEntered = false
